@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+</head>
+
+<body>
+  <h2>Student Registration Form</h2>
+
+  <form action="insert.php" method="post">
+    <label>Full Name:</label>
+  <input type="text" name="full_name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="course">Course:</label><br>
+    <input type="text" id="course" name="course" required><br><br>
+
+    <label>Gender:</label><br>
+    <label><input type="radio" name="gender" value="male" required /> Male</label>
+    <label><input type="radio" name="gender" value="female" required /> Female</label><br><br>
+
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required /><br><br>
+
+    <label for="phone">Phone:</label><br>
+    <input type="text" id="phone" name="phone" required /><br><br>
+
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" ></textarea><br><br>
+
+    <button type="submit">Register</button>
+  </form>
+</body>
+
+</html>
